@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "my-design-lib": [
+        "dist/my-design-lib"
+      ],
+      "my-design-lib/*": [
+        "dist/my-design-lib/*"
+      ]
+    }
   }
 }
